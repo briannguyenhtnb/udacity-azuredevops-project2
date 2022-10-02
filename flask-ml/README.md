@@ -1,12 +1,17 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project will show you how to set up Continous Integration with Github Actions and Continous Deployment with Azure Pipelines
 
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Link to a Trello board for the project](https://trello.com/invite/b/2dIg2sPk/f0fa24041f7b13471b794dacd36ffaac/flask-ml-service)
+* [Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1H4LCgfTe1PfxhTLpWj3LwC1k_zB-vXn9TTgFLwmq2rA/edit?usp=sharing)
+
+## Continuous Integration with Github Actions
+
+* Architectural Diagram
+
 
 ## Instructions
 
