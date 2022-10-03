@@ -3,17 +3,40 @@
 This project will show you how to set up Continous Integration with Github Actions and Continous Deployment with Azure Pipelines
 
 ## Project Plan
-<TODO: Project Plan
 
 * [Link to a Trello board for the project](https://trello.com/invite/b/2dIg2sPk/f0fa24041f7b13471b794dacd36ffaac/flask-ml-service)
 * [Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1H4LCgfTe1PfxhTLpWj3LwC1k_zB-vXn9TTgFLwmq2rA/edit?usp=sharing)
 
 ## Continuous Integration with Github Actions
+This project is living on ```github-actions``` branch. It is just a simple project to demo CI by using Github Actions
 
 * Architectural Diagram
+![Architectural Diagram](./images/ci-diagram.png)
+
+### Instructions
 
 
 ## Instructions
+* Create a ssh keypair and put it into your github, and then clone your repo by using ssh authentication
+![Github repo was cloned by using ssh key](./images/github_repo_was_cloned.png)
+
+* Checkout into a new branch ```git checkout -b github-actions```
+* Copy following files from my repo:
+```bash
+|__Makefile
+|__hello.py
+|__test_hello.py
+|__requirements.txt
+```
+* Test and verify output of testing by running command ```make all```
+![Output of passing test run](./images/make_all_test_passed.png)
+* Push your changes to your repo
+```bash
+git add .
+git commit -m "init source code"
+git push --set-upstream orgin github-actions
+```
+* Enable Github Actions on your repo
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
