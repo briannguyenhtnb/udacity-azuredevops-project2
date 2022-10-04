@@ -53,6 +53,8 @@ This project is living on ```main``` branch.
     
     Then here is the output of the command
     ![My output](./images/az-webapp-up.png)
+    You can check to verify if the webapp service created on Azure portal
+    ![Azure app service on portal](./images/azure-app-service.png)
     Follow the URL from the output in the console you can verify if your app has been deployed successfully
     ![output webapp on ui](./images/output-webapp-on-ui.png)
 
@@ -63,12 +65,7 @@ This project is living on ```main``` branch.
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-
-    ```bash
-    udacity@Azure:~$ ./make_predict_azure_app.sh
-    Port: 443
-    {"prediction":[20.35373177134412]}
-    ```
+![Prediction successful](./images/prediction_successful.png)
 
 * To see streamed log files from deployed application, we can use this command
 
