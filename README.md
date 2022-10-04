@@ -1,6 +1,6 @@
 # Overview
 
-These projects will show you how to set up Continous Integration with Github Actions and Continous Deployment with Azure Pipelines
+These projects will show you how to set up Continous Integration with Github Actions and Continous Deployment with Azure Pipelines. The first one project is living on the ```github-actions``` branch and it will be used to demo CI with Github Actions. The second one project is living on the ```main``` branch, it will be used to demo Continuous delivery by using Azure DevOps Pipelines.
 
 ## Project Plan
 
