@@ -74,6 +74,10 @@ The output should look similar to this:
     Output of the command above
     ![streamed log files](./images/streamed-log-files.png)
 
+* Run the load test against the deployed application and then run the test against /predict request of the application
+
+    ```locust -f locustfile.py --host https://udacity-flask-ml-service.azurewebsites.net/```
+![load test output](./images/locust.png)
 
 
 ## Enhancements
@@ -82,6 +86,6 @@ The output should look similar to this:
 
 ## Demo 
 
-[Link Screencast on YouTube](https://youtu.be/MeTFf9CD8TU)
+[Link Screencast on YouTube](https://youtu.be/m5wwRi9HrDc)
 
 
