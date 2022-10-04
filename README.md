@@ -4,7 +4,7 @@ These projects will show you how to set up Continous Integration with Github Act
 
 ## Project Plan
 
-* [Link to a Trello board for the project](https://trello.com/invite/b/2dIg2sPk/f0fa24041f7b13471b794dacd36ffaac/flask-ml-service)
+* [Link to a Trello board for the project](https://trello.com/b/2dIg2sPk/flask-ml-service)
 * [Link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1H4LCgfTe1PfxhTLpWj3LwC1k_zB-vXn9TTgFLwmq2rA/edit?usp=sharing)
 
 ## Continuous Integration with Github Actions
@@ -80,8 +80,8 @@ The output should look similar to this:
 
 
 ## Enhancements
-
-Fix the issue was mentioned in this [link](https://github.com/pallets/flask/issues/4494)
+* With the first project on the ```github-actions``` branch, I have a plan to dockerize the project.
+* With the second project on the ```main``` branch, I would like to create a new beautiful UI with a page of API documents. It will help the website looks friendly and everyone will have a good experience with this.
 
 ## Demo 
 
