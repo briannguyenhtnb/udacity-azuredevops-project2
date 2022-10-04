@@ -20,7 +20,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    html = "<h3>Sklearn Prediction Home - Welcome Page</h3>"
+    html = "<h3>Sklearn Prediction Home - The change will be deployed by Azure DevOps pipelines</h3>"
     return html.format(format)
 
 # TO DO:  Log out the prediction value

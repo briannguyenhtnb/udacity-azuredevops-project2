@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'af48cffd-86b5-4671-b198-ed5d84953915'
+  azureServiceConnectionId: 'f8661b85-8879-400a-a103-d5211dabe7fb'
 
   # Web app name
-  webAppName: 'udacity-project2-flask-ml-service'
+  webAppName: 'udacity-flask-ml-service'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'udacity-project2-flask-ml-service'
+  environmentName: 'udacity-flask-ml-service'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : udacity-project2-flask-ml-service'
+            displayName: 'Deploy Azure Web App : udacity-flask-ml-service'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
